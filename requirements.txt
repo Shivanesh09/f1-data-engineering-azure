@@ -1,0 +1,8 @@
+# Python dependencies for F1 Data Engineering Project
+# For Databricks Runtime (pre-installed: pyspark, delta-spark)
+
+# Additional libraries if needed
+azure-storage-blob>=12.0.0
+azure-identity>=1.7.0
+pandas>=1.3.0
+numpy>=1.21.0
