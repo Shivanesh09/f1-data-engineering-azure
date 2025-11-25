@@ -1,0 +1,6 @@
+{
+  "cluster_name": "f1-data-processing",
+  "spark_version": "11.3.x-scala2.12",
+  "node_type_id": "Standard_DS3_v2",
+  "num_workers": 2
+}
