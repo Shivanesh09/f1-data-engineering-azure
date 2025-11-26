@@ -2,8 +2,7 @@
 # For Databricks Runtime (pre-installed: pyspark, delta-spark, pandas, numpy)
 
 # Note: Most dependencies are pre-installed in Databricks Runtime
-# This file is a placeholder for any additional libraries you may need
 
-# Example additional libraries (uncomment if needed):
-# azure-storage-file-datalake>=12.0.0  # For ADLS Gen2 operations outside Databricks
-# azure-identity>=1.7.0  # For authentication
+# Example additional libraries :
+azure-storage-file-datalake>=12.0.0  # For ADLS Gen2 operations outside Databricks
+azure-identity>=1.7.0  # For authentication
