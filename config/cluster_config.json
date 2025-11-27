@@ -1,6 +1,27 @@
 {
-  "cluster_name": "f1-data-processing",
-  "spark_version": "11.3.x-scala2.12",
-  "node_type_id": "Standard_DS3_v2",
-  "num_workers": 2
+    "cluster_name": "Databricks Course Cluster",
+    "spark_version": "16.4.x-scala2.13",
+    "spark_conf": {
+        "spark.master": "local[*, 4]",
+        "spark.databricks.cluster.profile": "singleNode",
+        "fs.azure.account.key.formula1dlproject1.dfs.core.windows.net": "{{secrets/formula1-scope/formula1dlproject1-key}}"
+    },
+    "azure_attributes": {
+        "first_on_demand": 1,
+        "availability": "SPOT_WITH_FALLBACK_AZURE",
+        "spot_bid_max_price": -1
+    },
+    "node_type_id": "Standard_F4",
+    "driver_node_type_id": "Standard_F4",
+    "custom_tags": {
+        "ResourceClass": "SingleNode"
+    },
+    "autotermination_minutes": 20,
+    "enable_elastic_disk": true,
+    "single_user_name": "2880658@vikes.csuohio.edu",
+    "enable_local_disk_encryption": false,
+    "data_security_mode": "SINGLE_USER",
+    "runtime_engine": "STANDARD",
+    "num_workers": 0,
+    "apply_policy_default_values": false
 }
