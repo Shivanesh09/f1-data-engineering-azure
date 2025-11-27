@@ -6,7 +6,7 @@ This data dictionary describes the Formula 1 racing data schema used in this pro
 ## Data Source
 **Source**: Ergast Developer API (Formula 1 Historical Data)  
 **Format**: CSV files  
-**Time Period**: 1950 - Present  
+**Time Period**: 1950 - 2021  
 **Update Frequency**: Race season updates
 
 ## Architecture Layers
