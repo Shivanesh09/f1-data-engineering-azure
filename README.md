@@ -79,15 +79,11 @@ End-to-end data engineering solution for Formula 1 racing analytics using Azure 
 - [ADF Pipeline Documentation](/docs/ADF_Pipeline_Documentation.md)
 - [Pipeline Execution Flow](/docs/Pipeline_Execution_Flow.md)
 - [Data Dictionary](/data/DATA_DICTIONARY.md)
-- [Project Documentation](/docs/project_documentation.md)
+
 
 ## Setup
 
 See `/config` folder for Databricks cluster configuration and setup instructions.
-
-## Data Source
-
-Formula 1 historical data (1950-2021) from [Ergast Developer API](http://ergast.com/mrd/)
 
 ## License
 
